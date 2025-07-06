@@ -34,6 +34,8 @@ header{
     background-color: #6495ED;
     font-family:  'Arial Narrow Bold', sans-serif;
     margin: none;
+    position: fixed;
+
 }
 
 .opcmenu a{
