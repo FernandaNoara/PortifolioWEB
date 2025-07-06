@@ -1,0 +1,271 @@
+/*------BODY E DIVISÕES----*/
+
+body{
+    background-color: #FFFAFA;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+
+.centro{
+    text-align: center;
+    text-decoration: solid;
+
+}
+
+.titulo{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    height: 35px;
+    color: rgb(85, 83, 83);
+    text-align: center;
+    text-decoration: solid;
+    padding: auto;
+    font-size: 20px;
+    background-color: #f0f0f0;
+}
+
+/*------CABEÇALHO----*/
+
+header{
+    width: 100%;
+    height: 15px;
+    text-align: left;
+    padding: 18px;
+    background-color: #6495ED;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    margin: none;
+}
+
+.opcmenu a{
+    text-decoration: none;
+    color: #f0f0f0;
+    padding: 15px;
+    font-weight: bold;
+    width: 10px;
+    margin: none;
+}
+.opcmenu a:hover {
+    background-color: #a2b0fe;
+    color: black;
+}
+
+
+.btnicon a {
+   text-decoration: none; 
+}
+
+.icones{
+    padding: 0px 10px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.iconeExp{
+    width: 40px;
+    text-decoration: none;
+}
+
+/*------APRESENTACAO----*/
+
+#apresentacao{
+    
+    height: 360px;
+    padding-top: 80px;
+    background-color: #f0f0f0;  
+    text-align: left;
+    flex: 1;
+}
+
+#foto{
+    width: 250px;
+    border-radius: 100%;
+    margin: 20px 40px 15px;
+    float: left;   
+}
+
+/*------FORMACAO----*/
+
+#formacao {
+    height: 350px;
+    padding: 30px;   
+    padding: 50px;   
+    flex-wrap: wrap;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    background-color: #f0f0f0;  
+}
+
+/*------EXPERIENCIA----*/
+
+#experiencia {
+    height: 300px;
+    padding: 20px 30px;   
+    flex-wrap: wrap;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    background-color: #f0f0f0;  
+}
+
+
+
+/*------HABILIDADES----*/
+
+.teste {
+    height: 150px ;
+    padding: 30px;
+    background-color: #f0f0f0;  
+}
+
+#habilidade {
+    padding: 20px 60px;   
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    flex-wrap: wrap; 
+    display: flex;
+    gap: 10px; 
+    justify-content: center;
+}
+
+.item_habilidade{
+    padding: 8px 12px;
+    background-color: #ffc927;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.item_habilidade2{
+    padding: 8px 12px;
+    background-color: #88ff27;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.item_habilidade3{
+    padding: 8px 12px;
+    background-color: #ff2727;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.item_habilidade4{
+    padding: 8px 12px;
+    background-color: #2768ff;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.item_habilidade5{
+    padding: 8px 12px;
+    background-color: #f427ff;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.item_habilidade6{
+    padding: 8px 12px;
+    background-color: #ff7a27;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+.boxexp {
+    width: 230px;
+    height: 150px;
+    padding: 5px ;
+    padding-bottom: 40px; 
+    margin: 10px 20px;
+    border-radius: 35px;
+}
+
+.box {
+    width: 200px;
+    height: 180px;
+    padding: 5px 40px;
+    padding-bottom: 40px; 
+    margin: 10px 20px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 35px;
+}
+
+.situacao{
+    color: rgb(103, 187, 233);
+    font-weight: bold;
+}
+
+
+
+/*------FORMULARIO----*/
+#contato {
+    color: #ffffff;
+    width: 600px;
+    height: 470px;
+    margin: 30px auto;
+    padding-top: 30px; 
+    padding-left: 30px;
+    padding-right: 40px;
+    background:  #6495ED;
+    border-radius: 30px;
+}
+
+#msgRetorno {
+    display: none;
+    color: #ea3030;
+    border-radius: 35px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+}
+
+#contato input,
+#contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-decoration: none;
+  
+}
+
+#contato button {
+    padding: 10px 20px;
+    color: #000000;
+    border: aqua;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#contato button:hover {
+    background: #0056b3;
+    color: #ffffff;
+}
+
+
+
+/*------RODAPE----*/
+
+#footer{
+    
+    background-color: #6495ED;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    color: aliceblue;
+    
+}
