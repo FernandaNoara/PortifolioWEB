@@ -6,6 +6,10 @@ body{
     margin: 0px;
 }
 
+section{
+ scroll-margin-top: 200px;
+    
+}    
 .centro{
     text-align: center;
     text-decoration: solid;
@@ -127,12 +131,14 @@ header{
 
 .teste {
     height: 150px ;
-    padding: 30px;
+    padding: 40px;
     background-color: #f0f0f0;  
 }
 
 #habilidade {
-    padding: 20px 60px;   
+    padding-top: 10px;
+    padding-left: 300px;
+    padding-right: 300px;
     box-sizing: border-box;
     background-color: #f0f0f0;
     flex-wrap: wrap; 
